@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    overflow-x:hidden ;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    height: 10vh;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 10%;
+    
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 40vw;
+    list-style:none;
+    justify-content: space-around;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: rgb(21, 71, 233);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+li{
+    display: flex;
+    height: 80%;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+a:hover{
+    color: white;
+}
+
+header{
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.undraw{
+    height: 80vh;
+    width: 50vw;
+    background-size: cover;
+    background-image: url(./undraw_savings_re_eq4w.svg);
+}
+.pix-image{
+    display: flex;
+    background-image: url(./pix22.png);
+    background-position-y:200% ;
+    background-size: cover;
+    height: 80vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+}
+p{
+    margin-top: 10%;
+}
